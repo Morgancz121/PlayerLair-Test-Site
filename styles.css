@@ -145,6 +145,28 @@
     overflow: overlay;
     min-height: 100vh;
 }
+.main3 {
+    background-color: #000000;
+    background-image: url(images/404-background.png);
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: overlay;
+    min-height: 100vh;
+}
+
+.main3__error p {
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.main3__error img {
+    display: block;
+    margin: 0 auto;
+}
 
 .main__container {
     text-align: center;
@@ -208,10 +230,11 @@
 }
 
 .main__link {
-    width: 100%
+    width: 100%;
 }
 
 .main__link p {
+    width: 100%;
     color: #ffffff;
     font-size: 3rem;
     background-color:hsla(0, 0%, 0%, 0.8);
@@ -307,6 +330,22 @@
 }
 
 @media screen and (max-width: 960px) {
+
+    .main__content h1 {
+        font-size: 3.5rem;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .main__content h2 {
+        font-size: 2rem;
+        color: #fff;
+        text-align: center;
+        padding: 3rem;
+    }
+
+
     .navbar__container {
         display: flex;
         justify-content: space-between;
@@ -423,15 +462,15 @@
     }
 
     .rank-item {
-        flex-basis: 150px;
+        flex-basis: 140px;
         transition: all 0.5s ease;
     }
 
     .rank-item img {
-        width: 120px;
+        width: 115px;
     }
 
     .rank-item p {
-        font-size: 1.2rem;
+        font-size: 1.15rem;
     }
 }
